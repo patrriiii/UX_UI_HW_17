@@ -1,0 +1,41 @@
+/* Reset some default margin and padding for consistency */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a simple style to the header with navigation */
+header.navigation {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style for the inline-block logo div */
+div.inline-block.logo {
+    display: inline-block;
+    margin-right: 20px; /* Adjust spacing as needed */
+}
+
+/* Style for the logo image */
+div.inline-block.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style for the navigation section */
+nav.inline-block ul {
+    list-style: none;
+}
+
+nav.inline-block ul li {
+    display: inline-block;
+    margin-right: 10px; /* Adjust spacing as needed */
+}
+
+nav.inline-block ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
