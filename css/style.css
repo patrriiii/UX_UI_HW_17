@@ -22,6 +22,7 @@ div.inline-block.logo {
 div.inline-block.logo img {
     max-width: 100%;
     height: auto;
+    width: 50px; /* Adjust the width to your preference */
 }
 
 /* Style for the navigation section */
@@ -39,3 +40,51 @@ nav.inline-block ul li a {
     color: #fff;
 }
 
+/* Style for the hero image section */
+section.heroImg {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style for the content inside the hero image section */
+div.content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Style for the image of yourself */
+div.content img {
+    max-width: 100%;
+    height: auto;
+    width: 300px;
+    margin-bottom: 20px; /* Adjust spacing as needed */
+}
+
+/* Style for the download resume button */
+div.content button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style for the footer section */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Style for the footer list */
+footer ul {
+    list-style: none;
+}
+
+/* Style for the footer list items */
+footer li {
+    display: inline-block;
+    margin: 0 10px;
+}
